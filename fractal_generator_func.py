@@ -3,6 +3,7 @@ from viewport import Viewport
 from PIL import Image
 from PIL.ImageColor import getrgb
 import os, re
+
 def main():
     resolution = get_resolution()
     center = get_center()
